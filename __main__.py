@@ -3,7 +3,6 @@ import sys
 from jira import Jira
 from git import Git
 from conda import Conda
-from pull_request import PullRequest
 
 
 def main(project: str, env: str='', flag: str=''):
